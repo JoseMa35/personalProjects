@@ -94,6 +94,7 @@ public class GamePanel extends JPanel implements Runnable {
 
 		player.update();
 		
+		System.out.println("updating from GP");
 	}
 	
 	public void paintComponent(Graphics g) {
